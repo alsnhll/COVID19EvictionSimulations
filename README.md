@@ -59,14 +59,13 @@ We simulate control measures by downweighting all external contacts by a fixed p
 * In some scenarios we allowed for a __second lockdown__, occuring on Nov 1, which always had __90%__ efficacy ('strong')
 
 ### Evictions
-
-Evictions were modeled by choosing another random household from the population for the evicted household to merge with (see Figure 1), creating one larger household. No changes to external connections were made. All evictions for the month took place on the first of the month. The __eviction rate__ parameter we use is the percent of all households experiencing eviction each month. 
+While some evictions lead to homelessness, many more result in 'doubling up'--where evicted households move in with friends or family or anyone who can take them [Layser et al](https://papers.ssrn.com/abstract=3613789). See [Mosites 2020](http://dx.doi.org/10.15585/mmwr.mm6917) for a discussion of Coivd-19 in shelters. Here we limit our analysis to doubling up. In our model each evicted household is merged--at random--with another household, creating a larger combined household (see Figure 1). No changes to external connections were made. All evictions occured on the first of each month. The __eviction rate__ parameter we use is the percent of all households experiencing eviction each month. 
 
 To estimate the range of possible eviction rates across US cities, we used data from [Eviction Lab](https://evictionlab.org/). Note that eviction rates are often expressed as rates _per rental household_; we additionally use the % of renter households to adjust this to rate _per all households_. Evictions filings have already increased dramatically due to COVID-19, and to estimate how much larger than baseline eviction rates could be, we looked at the fold-increase in unemployement in the same cities (compared to 2019) and assumed that the increase in eviction rates (without any policies preventing evictions) could be increased by the same amount (Figure 3). Unemployement data was from the [Bureau of Labor Statistics](https://www.bls.gov/) via [Department of Numbers](https://www.deptofnumbers.com/unemployment/).
 
-If evictions took place, they occurred starting Sept 1 and continued monthly for the duration of the simulation. 
+If evictions took place, they occurred starting September 1 and continued monthly for the duration of the simulation. 
 
-We consider the following eviction rates: 0% (comparison case) 0.1%, 0.25%, 0.5%, 1%, 2%/month. Because evictions have been blocked in many regions for the past few months and have created a backlog that would have priority if current moratoriums were removed, we assumed that in the first month of evictions (Sept 1), 4 months worth of evictions occured all at once. 
+We consider the following eviction rates: 0% (comparison case) 0.1%, 0.25%, 0.5%, 1%, 2%/month. Because evictions have been prevented in many regions for the past few months, a backlog of fillings has accumulated that could move forward quickly  if current moratoriums were removed, we assumed that in the first month of evictions (Sept 1), 4 months worth of evictions occured all at once. 
 
 
 <img src="/figures/hhnetworks.png" width=50% height=50%>
