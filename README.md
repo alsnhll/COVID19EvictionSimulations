@@ -43,10 +43,10 @@ We assume the following parameters.
 * Fraction of all infected individuals who will die (infection fatality risk, IFR): 1%
 * The durations of all infection stages are gamma distributed
 
-Furthermore, we estimate the per contact per day infection rate (&Beta) for both household and external contacts, as well as the effective number of external contacts, by calibrating the model to give
+Furthermore, we estimate the per contact per day infection rate (&beta) for both household and external contacts, as well as the effective number of external contacts, by calibrating the model to give
 * An overall basic reproduction number before interventions of R<sub>0</sub> = 3 (corresponding to early epidemic doubling time ~4 days)
 * A household secondary attack rate of 0.3
-* A relative rate of transmission within households vs outside households of &Beta<sub>HH</sub>/&Beta <sub>EX</sub>=2.3
+* A relative rate of transmission within households vs outside households of &beta<sub>HH</sub>/&beta <sub>EX</sub>=2.3
 
 ### Control measures
 
