@@ -9,7 +9,7 @@ Joint work with:
 
 Contact : Alison Hill <alhill@fas.harvard.edu> and Mike Levy <mzlevy@upenn.edu>
 
-Paper: [The effect of eviction moratoriums on the transmission of SARS-CoV-2](The_effect_of_eviction_moratoriums_on_the_transmission_of_SARS-CoV-2.pdf)
+Pre-print: [The effect of eviction moratoriums on the transmission of SARS-CoV-2](https://www.medrxiv.org/content/10.1101/2020.10.27.20220897v1)
 
 ## Project Summary
 Massive unemployment during the COVID-19 pandemic could result in an eviction crisis in US cities. Here we model the effect of evictions on SARS-CoV-2 epidemics, simulating viral transmission within and among households in a theoretical metropolitan area. We recreate a range of urban epidemic trajectories and project the course of the epidemic under two counterfactual scenarios, one in which a strict moratorium on evictions is in place and enforced, and another in which evictions are allowed to resume at baseline or increased rates. We find, across scenarios, that evictions lead to significant increase in infections. Applying our model to Philadelphia using locally-specific parameters shows that the increase is especially profound in models that consider realistically heterogenous cities in which both evictions and contacts occur more frequently in poorer neighborhoods. Our results provide a basis to assess municipal eviction moratoriums and show that policies to stem evictions are a warranted and important component of COVID-19 control. 
