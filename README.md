@@ -9,7 +9,7 @@ Joint work with:
 
 Contact : Alison Hill <alhill@fas.harvard.edu> and Mike Levy <mzlevy@upenn.edu>
 
-Pre-print: [The effect of eviction moratoriums on the transmission of SARS-CoV-2](https://www.medrxiv.org/content/10.1101/2020.10.27.20220897v1)
+Pre-print: [The effect of eviction moratoria on the transmission of SARS-CoV-2](https://www.medrxiv.org/content/10.1101/2020.10.27.20220897v2)
 
 ## Project Summary
 Massive unemployment during the COVID-19 pandemic could result in an eviction crisis in US cities. Here we model the effect of evictions on SARS-CoV-2 epidemics, simulating viral transmission within and among households in a theoretical metropolitan area. We recreate a range of urban epidemic trajectories and project the course of the epidemic under two counterfactual scenarios, one in which a strict moratorium on evictions is in place and enforced, and another in which evictions are allowed to resume at baseline or increased rates. We find, across scenarios, that evictions lead to significant increase in infections. Applying our model to Philadelphia using locally-specific parameters shows that the increase is especially profound in models that consider realistically heterogenous cities in which both evictions and contacts occur more frequently in poorer neighborhoods. Our results provide a basis to assess municipal eviction moratoriums and show that policies to stem evictions are a warranted and important component of COVID-19 control. 
@@ -22,11 +22,13 @@ The code is divided into a few different notebooks, with similar pre-ambles but 
 
 ### Files
 
-* code/eviction_doubling_homogeneous.ipynb : This iPython notebook was used to simulate the effects of evictions in a homogeneous population, corresponding to figure 2 and 3 in the main text.
-* code/eviction_doubling_2clusters.ipynb : This iPython notebook contains the simulations that involved a heterogeneous population, divided into 2 clusters (high and low socio-economic status). This corresponds to figure 4 in the main text.
-*  code/eviction_doubling_3clusters.ipynb : Simulations involving our case study of Philadelphia are in this iPython notebook. This corresponds to figure 5 in the main text.
+* code/eviction_merging_revisions_homogeneous_github.ipynb : This iPython notebook was used to simulate the effects of evictions in a homogeneous population, corresponding to figure 2 and 3 in the main text.
+* code/eviction_merging_2clusters_revision_github.ipynb : This iPython notebook contains the simulations that involved a heterogeneous population, divided into 2 clusters (high and low socio-economic status). This corresponds to figure 4 in the main text.
+*  code/eviction_merging_3clusters_philly_github.ipynb : Simulations involving our case study of Philadelphia are in this iPython notebook. This corresponds to figure 5 in the main text.
 *  code/eviction_doubling_shelters_homogeneous.ipynb : This iPython notebook was used to simulate the effect of homelessness in addition to doubling of households due to evictions and was used to generate figure S12 in the supplement. 
-*  code/plotting_examples.ipynb : We provide example code that was used to generate all the figures in the main text.
+*  code/plotting_examples_github.ipynb : We provide example code that was used to generate figures in the main text.
+*  code/Mobility_data : Monthly mobility matrices that contain 'percent of typical contacts' between the three topologically identified regions in Philadelphia. See Supplementary Methods in the manuscript for more details.
+*  code/data : COVID-19 case and death reports from New York Times aggregated into metropolitan statistical areas (MSAs) with at least 1 million residents (53 cities). See Methods and Supplementary Methods in the manuscript for more details.
 
 
 ## Related
